@@ -615,6 +615,9 @@ template {
   margin-bottom: 25px;
   transition: 0.4s;
 }
+.section-courses .section-inner .section-courses .section-courses-image{
+  float:left;
+}
 .section-courses .section-inner .section-courses .section-courses-image img {
   width: 200px;
 }
