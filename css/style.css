@@ -596,6 +596,10 @@ template {
   }
 }
 
+.section-courses .section-inner{
+  display:flex;
+  flex-direction:column;
+}
 .section-courses .section-inner .section-courses-text {
   background-color: rgba(255, 255, 255, 0.99);
   width: 65%;
