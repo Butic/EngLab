@@ -1,13 +1,15 @@
 @import "normalise.scss";
 
-
+*{
+  font-family: "Lato", sans-serif;
+}
 //General navigation styles
 nav{
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-  font-family: "Lato", sans-serif;
+  
 }
 ul{
   list-style: none;
@@ -115,9 +117,41 @@ ul{
 }
 // Big main image style
 .background{
-    margin-top: -20px;
-    width: 100%;
-    height: 450px;
-    background: url(../img/eng.jpg) no-repeat 50% 50%;
-    background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 450px;
+  background: url(../img/eng.jpg) no-repeat 50% 50%;
+  background-size: cover;
+  z-index: -1;
+}
+
+//creating a "pink book" in background with user response
+.promo{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 300px;
+  background-color: rgba(191, 119, 122, 0.9);
+  right: 15%;
+  bottom: -15%;
+  border-radius: 5px;
+  padding: 20px;
+  transition: 1.7s;
+  &__title, &__description{
+    display: inline-block;
+    max-width: 50%;
+    text-align: center;
+    color: rgb(233, 247, 235);
+    padding: 10%;
+    line-height: 1.5em;
+  }
+  &__description{
+    border-left: 5px dotted rgba(59, 64, 68, 0.8);
+    font-size: 20px;
+  }
+}
+.promo:hover{
+  background-color: yellow;
 }
