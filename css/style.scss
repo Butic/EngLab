@@ -1,5 +1,7 @@
 @import "normalise.scss";
 
+
+//General navigation styles
 nav{
   display: flex;
   justify-content: center;
@@ -43,6 +45,8 @@ ul{
    &__sublink{
     background-color: #f8f8f8;
    }
+
+   // Styles of (beyond...) inner container with 2 link buttons
    &__link-container{
     position: absolute;
     display: flex;
@@ -77,6 +81,8 @@ ul{
     color: white;
     width: 180px;
 }
+
+// User response styles
 &__button::after{
   content: ' ❯';
 }
@@ -107,7 +113,7 @@ ul{
   }
 }
 }
-
+// Big main image style
 .background{
     margin-top: -20px;
     width: 100%;
