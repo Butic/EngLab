@@ -346,6 +346,18 @@ template {
   font-family: "Lato", sans-serif;
 }
 
+.button {
+  color: white;
+  width: 180px;
+  background-color: rgba(91, 131, 226, 0.99);
+}
+
+.button-input {
+  padding: 10px;
+  border: none;
+  text-align: center;
+}
+
 nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -392,7 +404,6 @@ ul {
 
 .header__image {
   width: 200px;
-  height: 200px;
 }
 
 .header__sublinks {
@@ -447,13 +458,10 @@ ul {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: rgba(91, 131, 226, 0.99);
   -ms-flex-item-align: center;
       align-self: center;
   font-size: 18px;
   line-height: 45px;
-  color: white;
-  width: 180px;
 }
 
 .header__button::after {
@@ -521,10 +529,10 @@ ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  max-width: 500px;
-  max-height: 300px;
+  max-width: 480px;
+  max-height: 260px;
   background-color: rgba(191, 119, 122, 0.9);
-  right: 15%;
+  right: 5%;
   bottom: -15%;
   border-radius: 5px;
   padding: 20px;
@@ -537,24 +545,64 @@ ul {
   width: 50%;
   text-align: center;
   color: #e9f7eb;
-  padding: 9%;
+  padding: 8%;
   line-height: 1.5em;
 }
 
 .promo__description {
   border-left: 5px dotted rgba(59, 64, 68, 0.8);
   font-size: 20px;
+  line-height: 1.5em;
 }
 
 .improve-english {
   position: relative;
   background-color: rgba(255, 255, 255, 0.99);
-  width: 40%;
+  width: 45%;
   margin-top: -85px;
   padding: 10px;
 }
 
 .improve-english h2, .improve-english p {
   padding: 10px;
+}
+
+.content {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 70%;
+  padding: 20px 0;
+  border-top: 2px groove rgba(50, 182, 10, 0.7);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.content img {
+  height: 200px;
+  width: 200px;
+  margin-right: 35px;
+}
+
+.content__about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.content__button {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
 }
 /*# sourceMappingURL=style.css.map */

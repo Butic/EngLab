@@ -1,15 +1,27 @@
 @import "normalise.scss";
 
+
+//Common Settings
 *{
   font-family: "Lato", sans-serif;
 }
+.button{
+  color: white;
+  width: 180px;
+  background-color: rgba(91, 131, 226, 0.99);
+}
+.button-input{
+  padding: 10px;
+  border: none;
+  text-align: center;
+}
+
 //General navigation styles
 nav{
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-  
 }
 ul{
   list-style: none;
@@ -37,12 +49,10 @@ ul{
    }
    &__image{
      width: 200px;
-     height: 200px;
    }
    &__sublinks{
      display:none;
      position: relative;
-     
    }
    &__sublink{
     background-color: #f8f8f8;
@@ -76,12 +86,9 @@ ul{
     text-decoration: none;
     display: flex;
     justify-content: center;
-    background-color: rgba(91, 131, 226, 0.99);
     align-self: center;
     font-size: 18px;
     line-height: 45px;
-    color: white;
-    width: 180px;
 }
 
 // User response styles
@@ -136,10 +143,10 @@ ul{
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 500px;
-  max-height: 300px;
+  max-width: 480px;
+  max-height: 260px;
   background-color: rgba(191, 119, 122, 0.9);
-  right: 15%;
+  right: 5%;
   bottom: -15%;
   border-radius: 5px;
   padding: 20px;
@@ -149,12 +156,13 @@ ul{
     width: 50%;
     text-align: center;
     color: rgb(233, 247, 235);
-    padding: 9%;
+    padding: 8%;
     line-height: 1.5em;
   }
   &__description{
     border-left: 5px dotted rgba(59, 64, 68, 0.8);
     font-size: 20px;
+    line-height: 1.5em;
   }
 }
 
@@ -162,11 +170,35 @@ ul{
 .improve-english{
   position: relative;
   background-color: rgba(255, 255, 255, 0.99);
-  width: 40%;
+  width: 45%;
   margin-top: -85px;
   padding: 10px;
   h2, p{
     padding: 10px;
+  }
+}
+
+//General content styles
+.content{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  padding: 20px 0;
+  border-top: 2px groove rgba(50, 182, 10, 0.7);
+  transition: 0.3s;
+  img{
+    height: 200px;
+    width: 200px;
+    margin-right: 35px;
+  }
+  &__about{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  &__button{
+    align-self: flex-end;
   }
 }
 
