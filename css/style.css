@@ -498,11 +498,16 @@ ul {
 
 .background {
   position: relative;
+  background: url(../img/eng.jpg) no-repeat 50% 50%;
   width: 100%;
   height: 450px;
-  background: url(../img/eng.jpg) no-repeat 50% 50%;
   background-size: cover;
   z-index: -1;
+}
+
+.main-contents {
+  width: 80%;
+  margin: 0 auto;
 }
 
 .promo {
@@ -516,8 +521,8 @@ ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 500px;
-  height: 300px;
+  max-width: 500px;
+  max-height: 300px;
   background-color: rgba(191, 119, 122, 0.9);
   right: 15%;
   bottom: -15%;
@@ -529,10 +534,10 @@ ul {
 
 .promo__title, .promo__description {
   display: inline-block;
-  max-width: 50%;
+  width: 50%;
   text-align: center;
   color: #e9f7eb;
-  padding: 10%;
+  padding: 9%;
   line-height: 1.5em;
 }
 
@@ -541,7 +546,15 @@ ul {
   font-size: 20px;
 }
 
-.promo:hover {
-  background-color: yellow;
+.improve-english {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.99);
+  width: 40%;
+  margin-top: -85px;
+  padding: 10px;
+}
+
+.improve-english h2, .improve-english p {
+  padding: 10px;
 }
 /*# sourceMappingURL=style.css.map */
