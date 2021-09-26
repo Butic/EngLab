@@ -350,6 +350,9 @@ template {
   color: white;
   width: 180px;
   background-color: rgba(91, 131, 226, 0.99);
+  border-radius: 5px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .button-input {
@@ -521,6 +524,83 @@ ul {
   margin: 0 auto;
 }
 
+.social {
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  right: -57px;
+  top: 20%;
+}
+
+.social__content-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 35px;
+  padding: 10px;
+  border: 1px solid rgba(233, 233, 233, 0.8);
+  background-color: green;
+  border-radius: 10px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.social__content-right .social__img {
+  width: 35px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.social__content-right .social__img:not(:last-child) {
+  padding-bottom: 10px;
+}
+
+.social__content-right .social__img:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.social__content-left {
+  position: relative;
+  -ms-flex-item-align: center;
+      align-self: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 150px;
+  background-color: rgba(91, 131, 226, 0.99);
+  border-radius: 10px 0 0 10px;
+  width: 40px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.social__content-left p {
+  display: inline-block;
+  width: 100%;
+  color: white;
+  -webkit-writing-mode: tb-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: tb-rl;
+  -webkit-transform: rotate(-180deg);
+          transform: rotate(-180deg);
+}
+
+.social__content-left:hover {
+  background-color: rgba(1, 46, 223, 0.75);
+}
+
 .promo {
   position: absolute;
   display: -webkit-box;
@@ -676,12 +756,29 @@ ul {
   line-height: 1.5em;
 }
 
+.footer__adress a {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
 .footer__contact-us:hover {
   color: #175f01;
+  border-radius: 50%;
+  width: 20%;
+  background-color: #bdcaca;
 }
 
 .footer__link:hover {
   font-weight: 600;
   color: blanchedalmond;
+}
+
+.footer__adress a:hover {
+  font-weight: 500;
+  color: #175f01;
+}
+
+.button:hover {
+  background-color: rgba(1, 46, 223, 0.75);
 }
 /*# sourceMappingURL=style.css.map */
