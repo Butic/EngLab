@@ -5,17 +5,22 @@
 *{
   font-family: "Lato", sans-serif;
 }
+html{
+  scroll-behavior: smooth;
+}
 .button{
   color: white;
   width: 180px;
   background-color: rgba(91, 131, 226, 0.99);
   border-radius: 5px;
+  cursor: pointer;
   transition: 0.3s;
 }
 .button-input{
   padding: 10px;
   border: none;
   text-align: center;
+  cursor: pointer;
 }
 a{
   text-decoration: none;
@@ -44,6 +49,7 @@ ul{
     display: inline-block;
     width: 160px;
     height: 60px;
+    cursor: pointer;
    }
    p{
      font-size: 19px;
@@ -155,7 +161,7 @@ ul{
       width: 35px;
       padding: 10px;
       border: 1px solid rgba(233, 233, 233, 0.8);
-      background-color: green;
+      background-color: rgba(255, 255, 255, 0.5);
       border-radius: 10px;
       transition: 0.5s;
       .social__img{
@@ -181,6 +187,7 @@ ul{
       background-color: rgba(91, 131, 226, 0.99);
       border-radius: 10px 0 0 10px;
       width: 40px;
+      cursor: pointer;
       transition: 0.3s;
       p{
         display: inline-block;
@@ -246,6 +253,7 @@ ul{
   padding: 20px 0;
   border-top: 2px groove rgba(50, 182, 10, 0.7);
   transition: 0.3s;
+  cursor: pointer;
   img{
     height: 200px;
     width: 200px;
@@ -259,6 +267,10 @@ ul{
   &__button{
     align-self: flex-end;
   }
+}
+.content:hover{
+  border-top: 2px groove rgba(50, 182, 10, 0.95);
+  background-color: rgba(226, 227, 236, 0.5);
 }
 
 //Section footer styles

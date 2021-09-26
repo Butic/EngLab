@@ -346,11 +346,16 @@ template {
   font-family: "Lato", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .button {
   color: white;
   width: 180px;
   background-color: rgba(91, 131, 226, 0.99);
   border-radius: 5px;
+  cursor: pointer;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
@@ -359,6 +364,7 @@ template {
   padding: 10px;
   border: none;
   text-align: center;
+  cursor: pointer;
 }
 
 a {
@@ -398,6 +404,7 @@ ul {
   display: inline-block;
   width: 160px;
   height: 60px;
+  cursor: pointer;
 }
 
 .header p {
@@ -544,7 +551,7 @@ ul {
   width: 35px;
   padding: 10px;
   border: 1px solid rgba(233, 233, 233, 0.8);
-  background-color: green;
+  background-color: rgba(255, 255, 255, 0.5);
   border-radius: 10px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -582,6 +589,7 @@ ul {
   background-color: rgba(91, 131, 226, 0.99);
   border-radius: 10px 0 0 10px;
   width: 40px;
+  cursor: pointer;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
@@ -663,6 +671,7 @@ ul {
   border-top: 2px groove rgba(50, 182, 10, 0.7);
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  cursor: pointer;
 }
 
 .content img {
@@ -687,6 +696,11 @@ ul {
 .content__button {
   -ms-flex-item-align: end;
       align-self: flex-end;
+}
+
+.content:hover {
+  border-top: 2px groove rgba(50, 182, 10, 0.95);
+  background-color: rgba(226, 227, 236, 0.5);
 }
 
 .footer__about-us {
