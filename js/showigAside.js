@@ -1,7 +1,6 @@
 let social = document.querySelector('.social');
 let socialList = social.querySelector('.social__content-left');
 let p = socialList.querySelector('p');
-
 let promo = document.querySelector('.promo');
 let promoTitle = promo.querySelector('.promo__title');
 let promoDescription = promo.querySelector('.promo__description');
