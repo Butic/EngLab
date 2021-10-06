@@ -72,6 +72,6 @@ let number = footer.querySelector('.number');
       	content.style.borderTop = "3px solid rgba(229,179,2,0.25)";
       }
       
-      number.style.color = "rgba(229,179,2,255);";
+      number.style = "text-decoration: none; color: rgba(229,179,2,255);";
     }
   }
