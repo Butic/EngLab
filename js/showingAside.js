@@ -21,6 +21,6 @@ socialList.onclick = function(e){
     promo.style = "right: 20%; bottom: 20%; max-width: 420px; max-height: 220px";
 		promoTitle.innerText = "Find us in social net :";
     promoDescription.style.lineHeight = "2em";
-    promoDescription.innerText = 'Bitrix24 Instagram Facebook Mail.ru';
+    promoDescription.innerText = 'Bitrix24 Instagram Mail.ru Facebook';
   }
 }
