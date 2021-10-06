@@ -172,16 +172,16 @@ ul{
       border: 1px solid rgba(233, 233, 233, 0.8);
       background-color: rgba(255, 255, 255, 0.5);
       border-radius: 10px 0 0 10px;
-      transition: 0.5s;
+      transition: 0.2s;
       .social__img{
         width: 35px;
-        transition: 1s;
+        transition: 0.5s;
       }
       .social__img:not(:last-child){
         padding-bottom: 10px;
       }
       .social__img:hover{
-        transform: rotate(360deg);
+        transform: rotate(15deg);
       }
     }
 
