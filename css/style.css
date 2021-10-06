@@ -806,8 +806,7 @@ ul {
   color: blanchedalmond;
 }
 
-.footer__adress a:hover {
-  font-weight: 500;
+.footer__adress .number:hover {
   color: #175f01;
 }
 

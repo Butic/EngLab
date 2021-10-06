@@ -357,8 +357,7 @@ ul{
     color: blanchedalmond;
   }
   &__adress{
-    a:hover{
-      font-weight: 500;
+    .number:hover{
       color: rgb(23, 95, 1);
     }
   }
