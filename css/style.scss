@@ -123,9 +123,11 @@ ul{
 }
 
  &__link:hover{
-   &{
     background: linear-gradient(to bottom, rgba(204, 130, 131, 0.9), #f8f8f8);
-   }
+    .header__link-name{
+      color: black;
+    }
+    
   .header__sublinks{
     display: flex;
     flex-direction: column;
