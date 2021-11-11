@@ -535,6 +535,7 @@ ul {
   width: 100%;
   height: 450px;
   background-size: cover;
+  border-radius: 50%;
   z-index: -1;
 }
 
@@ -812,9 +813,5 @@ ul {
 
 .button:hover {
   background-color: rgba(1, 46, 223, 0.75);
-}
-
-.dark {
-  display: block;
 }
 /*# sourceMappingURL=style.css.map */
