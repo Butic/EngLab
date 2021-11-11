@@ -483,6 +483,7 @@ ul {
   -webkit-transition: 0.8s;
   transition: 0.8s;
   cursor: pointer;
+  border-radius: 50%;
 }
 
 .header__button::after {
@@ -535,7 +536,6 @@ ul {
   width: 100%;
   height: 450px;
   background-size: cover;
-  border-radius: 50%;
   z-index: -1;
 }
 
