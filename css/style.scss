@@ -176,6 +176,7 @@ ul{
       transition: 0.2s;
       .social__img{
         width: 35px;
+        border-radius: 40%;
         transition: 0.5s;
       }
       .social__img:not(:last-child){

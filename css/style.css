@@ -574,6 +574,7 @@ ul {
 
 .social__content-right .social__img {
   width: 35px;
+  border-radius: 40%;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
