@@ -1,4 +1,4 @@
-let social = document.querySelector('.social');
+let social = body.querySelector('.social');
 let socialList = social.querySelector('.social__content-left');
 let p = socialList.querySelector('p');
 let promoTitle = promo.querySelector('.promo__title');

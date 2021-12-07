@@ -1,5 +1,5 @@
 let body = document.querySelector('body');
-let theme = document.querySelector('.theme__button');
+let theme = body.querySelector('.theme__button');
 let headerLinks = body.querySelectorAll('.header__link');
 let promo = body.querySelector('.promo');
 let mainContent = body.querySelector('.main-contents');

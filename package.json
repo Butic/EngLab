@@ -1,0 +1,27 @@
+{
+  "name": "english_lab",
+  "version": "1.0.0",
+  "description": "my first trying to use webpak",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Butic/English_Lab.git"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "css",
+    "scss",
+    "git",
+    "just_sinple_name"
+  ],
+  "author": "Andrey Butikov <just_simple_name@yahoo.com> (just_simple_name)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Butic/English_Lab/issues"
+  },
+  "homepage": "https://github.com/Butic/English_Lab#readme"
+}
